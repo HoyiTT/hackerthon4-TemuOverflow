@@ -24,7 +24,7 @@ public class Reply {
     private Long id;
 
     @Column(name = "post_id", nullable = false)
- //   @ManyToOne(fetch = LAZY)
+    //   @ManyToOne(fetch = LAZY)
     private Long postId;
 
     @ManyToOne(fetch = FetchType.LAZY)
